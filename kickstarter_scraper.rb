@@ -3,7 +3,7 @@ require 'pry'
 
 html = File.read('fixtures/kickstarter.html')
 
-Kickstarter = Nokogiri::HTML(html)
+kickstarter = Nokogiri::HTML(html)
 
 
 
