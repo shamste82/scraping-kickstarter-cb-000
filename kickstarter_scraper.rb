@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'pry'
 
-html = File.read('fixtures/Kickstarter.html')
+html = File.read('fixtures/kickstarter.html')
 
 Kickstarter = Nokogiri::HTML(html)
 
